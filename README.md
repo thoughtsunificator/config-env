@@ -22,7 +22,6 @@ Order of priority:
 
 ```javascript
 import config from '@thoughtsunificator/config-env' // assumes ".env.json" and "data/config.json"
-
 ```
 
 or 
@@ -30,7 +29,6 @@ or
 ```javascript
 import { createConfig } from '@thoughtsunificator/config-env'
 const config = createConfig(".env.json", "data/config.json")
-
 ```
 
 ``data/config.json``
@@ -50,7 +48,7 @@ const config = createConfig(".env.json", "data/config.json")
 Within the context of your application:
 
 ```javascript
-import config from ":config"
+import config from '@thoughtsunificator/config-env'
 
 console.log(config)
 /* outputs:
