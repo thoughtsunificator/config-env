@@ -1,0 +1,23 @@
+{
+	"name": "config-env",
+	"version": "1.0.0",
+	"main": "index.js",
+	"type": "module",
+	"description": "Provide a way to inject environment variables into your application",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/thoughtsunificator/config-env.git"
+	},
+	"bugs": {
+		"url": "https://github.com/thoughtsunificator/config-env/issues"
+	},
+	"author": "Romain Lebesle <oss@thoughtsunificator.me> (https://thoughtsunificator.me)",
+	"license": "MIT",
+	"scripts": {
+		"test": "mocha",
+		"lint": "eslint src/**/*.js"
+	},
+	"devDependencies": {
+		"eslint": "^7.28.0"
+	}
+}
